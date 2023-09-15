@@ -1,5 +1,5 @@
 # Machine Unlearning HK 
-A shared learning space for [2023 Kaggle competition "Machine unlearning"](https://www.kaggle.com/competitions/neurips-2023-machine-unlearning). Just some undergrad friends in HKU & CUHK interested in DL advances. 
+A shared learning space for [2023 Kaggle competition "Machine unlearning"](https://www.kaggle.com/competitions/neurips-2023-machine-unlearning). Just some undergrad friends in HKU & CUHK & UST interested in DL advances. 
 
 ## Problem statement from Kaggle
 
