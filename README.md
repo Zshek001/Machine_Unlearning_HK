@@ -18,11 +18,11 @@ Your goal is to submit code that **takes as input _the trained predictor, the fo
 ## Resource
 
 ### Official reference from kaggle site
-- **[Membership Inference Attacks against Machine Learning Models](https://arxiv.org/abs/1610.05820)**
+- 2017 **[Membership Inference Attacks against Machine Learning Models](https://arxiv.org/abs/1610.05820)**
 > We quantitatively investigate how machine learning models leak information about the individual data records on which they were trained. We focus on the basic membership inference attack: given a data record and black-box access to a model, determine if the record was in the model's training dataset. To perform membership inference against a target model, we make adversarial use of machine learning and train our own inference model to recognize differences in the target model's predictions on the inputs that it trained on versus the inputs that it did not train on.
 We empirically evaluate our inference techniques on classification models trained by commercial "machine learning as a service" providers such as Google and Amazon. Using realistic datasets and classification tasks, including a hospital discharge dataset whose membership is sensitive from the privacy perspective, we show that these models can be vulnerable to membership inference attacks. We then investigate the factors that influence this leakage and evaluate mitigation strategies.
 
-- **[Membership Inference Attacks From First Principles](https://arxiv.org/abs/2112.03570)**
+- 2021 **[Membership Inference Attacks From First Principles](https://arxiv.org/abs/2112.03570)**
 > A membership inference attack allows an adversary to query a trained machine learning model to predict whether or not a particular example was contained in the model's training dataset. These attacks are currently evaluated using average-case "accuracy" metrics that fail to characterize whether the attack can confidently identify any members of the training set. We argue that attacks should instead be evaluated by computing their true-positive rate at low (e.g., <0.1%) false-positive rates, and find most prior attacks perform poorly when evaluated in this way. To address this we develop a Likelihood Ratio Attack (LiRA) that carefully combines multiple ideas from the literature. Our attack is 10x more powerful at low false-positive rates, and also strictly dominates prior attacks on existing metrics.
 
 ### The Machine Unlearning: papers
